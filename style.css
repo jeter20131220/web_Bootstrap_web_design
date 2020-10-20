@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.container-fluid nav {
+  margin-bottom: -100px;
+  z-index: 1;
+}
+
+.container-fluid nav .form-inline .btn {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container-fluid nav .form-inline .btn:hover {
+  background-color: #a9a9a9;
+}
+
+.container-fluid a {
+  padding: 10px 50px;
+  font-size: 28px;
+}
+
+.container-fluid .carousel-inner .carousel-indicators {
+  margin-bottom: 200px;
+}
+
+.container-fluid .carousel-inner img {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-fluid .carousel-inner .carousel-caption {
+  margin-bottom: 200px;
+}
+
+.container-fluid .carousel-inner .carousel-caption h5 {
+  font-size: 48px;
+}
+
+.container-fluid hr {
+  width: 150px;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  height: 5px;
+  border: 0;
+  background: #a9a9a9;
+}
+
+.container-fluid .row {
+  margin: 30px auto;
+  width: 85vw;
+}
+
+.container-fluid .card {
+  height: 600px;
+}
+
+.container-fluid .card h5 {
+  font-size: 26px;
+  padding: 15px 0;
+}
+
+.container-fluid .card p {
+  font-size: 18px;
+}
+
+.container-fluid .card img {
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-fluid .card a {
+  background: #a9a9a9;
+  color: #eee;
+}
+
+.container-fluid .card a:hover {
+  background: #eee;
+  color: #a9a9a9;
+}
+
+.container-fluid #card2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-position: center;
+  height: 80vh;
+  background-image: url(./img/box2.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-fluid #card2 h5 {
+  font-size: 36px;
+}
+
+.container-fluid #card2 hr {
+  width: 150px;
+  margin: 5px 0;
+  margin-bottom: 50px;
+  height: 5px;
+  border: 0;
+  background: #fff;
+  margin-left: 15px;
+}
+
+.container-fluid #card2 .card-text {
+  font-size: 24px;
+  line-height: 2;
+}
+
+.container-fluid #card2 button {
+  margin-top: 50px;
+  background: 0;
+  color: #eee;
+}
+
+.container-fluid #card2 button:hover {
+  background: #a9a9a9;
+  color: #eee;
+}
+/*# sourceMappingURL=style.css.map */

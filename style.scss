@@ -1,0 +1,117 @@
+$color: #a9a9a9;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    // 導覽頁
+    nav {
+        margin-bottom: -100px;
+        z-index: 1;
+        .form-inline {
+            .btn{
+                transition: 0.3s;
+                &:hover {
+                    background-color: $color;
+                }
+            }
+        }
+    }
+
+    a {
+        padding: 10px 50px;
+        font-size: 28px;
+    }
+
+    //  輪播
+    .carousel-inner {
+        .carousel-indicators {
+            margin-bottom: 200px;
+        }
+
+        img {
+            height: 100vh;
+            object-fit: cover;
+        }
+        .carousel-caption {
+            margin-bottom: 200px;
+
+            h5 {
+                font-size: 48px;
+            }
+        }
+    }
+    // LATEST POSTS
+    hr {
+        width: 150px;
+        margin: 20px auto;
+        margin-bottom: 50px;
+        height: 5px;
+        border: 0;
+        background: #a9a9a9;
+    }
+    .row {
+        margin: 30px auto;
+        width: 85vw;
+    }
+    .card {
+        height: 600px;
+        h5 {
+            font-size: 26px;
+            padding: 15px 0;
+        }
+        p {
+            font-size: 18px;
+        }
+        img {
+            height: 320px;
+            object-fit: cover;
+        }
+        a {
+            background: #a9a9a9;
+            color: #eee;
+            &:hover {
+                background: #eee;
+                color: #a9a9a9;
+            }
+        }
+    }
+
+    #card2{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-position:center;
+        height: 80vh;
+        background-image:url(./img/box2.jpg);
+        background-attachment: fixed;
+        object-fit: cover;
+        h5{
+            font-size:36px;
+        }
+        hr{
+            width: 150px;
+            margin: 5px 0;
+            margin-bottom: 50px;
+            height: 5px;
+            border: 0;
+            background: #fff; 
+            margin-left: 15px;
+        }
+        .card-text{
+            font-size: 24px;
+            line-height: 2;
+        }
+        button{
+            margin-top: 50px;
+            background:0;
+            color: #eee;
+            &:hover {
+                background:#a9a9a9;
+                color:#eee;
+            }
+        }
+    }
+   
+}
